@@ -1,4 +1,4 @@
-kind: Service
+kind: Service1
 apiVersion: v1
 metadata:
   name: sample-dev
