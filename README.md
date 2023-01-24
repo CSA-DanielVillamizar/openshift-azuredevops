@@ -200,7 +200,7 @@ The Developer perspective in the web console provides you the options from the +
 
 ![image](https://user-images.githubusercontent.com/59210322/214401608-afdfb12b-279d-437c-b1f4-e8f18ec37a80.png)
 
-You can download my deployment config file and other files from my git repository (Link)(https://github.com/CSA-DanielVillamizar/openshift-azuredevops/tree/master/deployment) . Run and Test your application.
+You can download my deployment config file and other files from my git repository [html_1] (https://github.com/CSA-DanielVillamizar/openshift-azuredevops/tree/master/deployment) . Run and Test your application.
 
 ![image](https://user-images.githubusercontent.com/59210322/214402770-05eb4fc7-4c39-4341-9636-bb654cd058a0.png)
 
