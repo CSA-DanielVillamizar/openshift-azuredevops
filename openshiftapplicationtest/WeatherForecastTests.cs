@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using openshiftapplication.Controllers;1
+using openshiftapplication.Controllers;
 using System.Linq;
 
 namespace openshiftapplicationtest
