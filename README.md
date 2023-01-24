@@ -1,5 +1,7 @@
 # openshift-azuredevops
 openshift-azuredevops
+![image](https://user-images.githubusercontent.com/59210322/214396545-a59b5a36-1843-4416-936b-fd9f4aa36d30.png)
+
 
 Create CI & CD pipelines in Azure DevOps for .NET Core Application on Containers and Deploying to a OpenShift Cluster
 
