@@ -173,7 +173,7 @@ In this step we are going to deploy docker image that we create in the previous 
 1. Install Red Hat OpenShift deployment extension for Azure DevOps.
 The OpenShift VSTS extension can be downloaded directly from the marketplace (Link).
 
-- [Go to] (https://marketplace.visualstudio.com/items?itemName=redhat.openshift-vsts) .
+- Go to [html_1] (https://marketplace.visualstudio.com/items?itemName=redhat.openshift-vsts/html_1_low.html) .
 - Click on Get it free.
 - Select your Azure DevOps organization and click Install. Once this process finishes, the OpenShift VSTS extension install is complete, and you can start setting up your account.
 
