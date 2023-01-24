@@ -17,7 +17,7 @@ A CI/CD pipeline is a series of steps that must be performed in order to deliver
 
 # Prerequisites & Setup
 ***1. Azure DevOps account:*** We will use an Azure DevOps project for a Git repo and build/release pipelines. Create account and a new project here. Make sure you have Project Admin rights to the Azure DevOps account.
-***2. RedHat OpenShift Cluster:*** platform as a service built around docker containers orchestrated and managed by Kubernetes on a foundation of Red Hat Enterprise Linux. 
+***2. RedHat OpenShift Cluster:*** platform as a service built around docker containers orchestrated and managed by Kubernetes on a foundation of Red Hat Enterprise Linux.In this article we are using OpenShift cluster provision on AWS. 
 
 ***3. Source Code:*** You can download the source code from my GitHub profile (Link).
 
