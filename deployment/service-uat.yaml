@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: sample-uat
-  namespace: darshana-uat
+  namespace: dvillamizara-uat
   labels:
     app: sample-uat
     app.kubernetes.io/component: sample-uat

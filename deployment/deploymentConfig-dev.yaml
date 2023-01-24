@@ -3,7 +3,7 @@ kind: DeploymentConfig
 apiVersion: apps.openshift.io/v1
 metadata:
   name: sample-dev
-  namespace: darshana-dev
+  namespace: dvillamizara-dev
   labels:
     app: sample-dev
     app.kubernetes.io/component: sample-dev
@@ -11,7 +11,7 @@ metadata:
     app.kubernetes.io/name: imagestream-dev
     app.kubernetes.io/part-of: sample-dev-app
     app.openshift.io/runtime: dotnet
-    app.openshift.io/runtime-namespace: darshana-dev
+    app.openshift.io/runtime-namespace: dvillamizara-dev
     app.openshift.io/runtime-version: '35'
 spec:
   strategy:
@@ -33,10 +33,10 @@ spec:
           - sample-dev
         from:
           kind: ImageStreamTag
-          namespace: darshana-dev
+          namespace: dvillamizara-dev
           name: 'imagestream-dev:35'
         lastTriggeredImage: >-
-          image-registry.openshift-image-registry.svc:5000/darshana-dev/imagestream-dev@sha256:de31815736ac095440e88a91b62bf5c64684d7e5d6d6168fef5184c97634bc2b
+          image-registry.openshift-image-registry.svc:5000/dvillamizara-dev/imagestream-dev@sha256:de31815736ac095440e88a91b62bf5c64684d7e5d6d6168fef5184c97634bc2b
   replicas: 3
   revisionHistoryLimit: 10
   test: false
@@ -55,7 +55,7 @@ spec:
       containers:
         - name: sample-dev
           image: >-
-            image-registry.openshift-image-registry.svc:5000/darshana-dev/imagestream-dev@sha256:7da19314b22115361f695ac8897363c6e17a490c93e447c043260cdaf4442e40
+            image-registry.openshift-image-registry.svc:5000/dvillamizara-dev/imagestream-dev@sha256:7da19314b22115361f695ac8897363c6e17a490c93e447c043260cdaf4442e40
           ports:
             - containerPort: 8080
               protocol: TCP
