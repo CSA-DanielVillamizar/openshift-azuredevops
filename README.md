@@ -1,17 +1,14 @@
 # openshift-azuredevops
-openshift-azuredevops
-![image](https://user-images.githubusercontent.com/59210322/214396545-a59b5a36-1843-4416-936b-fd9f4aa36d30.png)
 
-
-Create CI & CD pipelines in Azure DevOps for .NET Core Application on Containers and Deploying to a OpenShift Cluster
+# Create CI & CD pipelines in Azure DevOps for .NET Core Application on Containers and Deploying to a OpenShift Cluster
 
 In this article, we will show how to set up a CI/CD pipeline to deploy a containerized ASP.NET Core (5.0) Web API application into an OpenShift Kubernetes cluster using Azure DevOps.
 
-What is a CI/CD pipeline?
+#What is a CI/CD pipeline?
 
 A CI/CD pipeline is a series of steps that must be performed in order to deliver a new version of software. Continuous integration/continuous delivery (CI/CD) pipelines is one of the best practices for DevOps teams to implement, for delivering code changes more frequently and reliably.
 
-Continuous Integration(CI) is the process of automating the build and testing of code every time a team member commits changes to version control.
+*Continuous Integration(CI)* is the process of automating the build and testing of code every time a team member commits changes to version control.
 
 Continuous Delivery (CD) is an extension of continuous integration since it automatically deploys all code changes to a testing and/or production environment after the build stage.
 
