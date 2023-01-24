@@ -173,7 +173,7 @@ In this step we are going to deploy docker image that we create in the previous 
 1. Install Red Hat OpenShift deployment extension for Azure DevOps.
 The OpenShift VSTS extension can be downloaded directly from the marketplace (Link).
 
-- Go to [html_1] (https://marketplace.visualstudio.com/items?itemName=redhat.openshift-vsts/html_1_low.html) .
+- Go to (https://marketplace.visualstudio.com/items?itemName=redhat.openshift-vsts) .
 - Click on Get it free.
 - Select your Azure DevOps organization and click Install. Once this process finishes, the OpenShift VSTS extension install is complete, and you can start setting up your account.
 
@@ -196,11 +196,11 @@ Once the extension can authenticate to the Red Hat OpenShift cluster, you are re
 
 In this step we use OpenShift Developer perspective to create .net core application and build that application on the openshift.
 
-The Developer perspective in the web console provides you the options from the +Add view to create applications and associated services and deploy them on OpenShift Container Platform (Link)https://docs.openshift.com/container-platform/4.5/applications/application_life_cycle_management/odc-creating-applications-using-developer-perspective.html .Navigate to Developer mode then Topology, chose Container Image option ,then configure following way.
+The Developer perspective in the web console provides you the options from the +Add view to create applications and associated services and deploy them on OpenShift Container Platform Link https://docs.openshift.com/container-platform/4.5/applications/application_life_cycle_management/odc-creating-applications-using-developer-perspective.html .Navigate to Developer mode then Topology, chose Container Image option ,then configure following way.
 
 ![image](https://user-images.githubusercontent.com/59210322/214401608-afdfb12b-279d-437c-b1f4-e8f18ec37a80.png)
 
-You can download my deployment config file and other files from my git repository [html_1] (https://github.com/CSA-DanielVillamizar/openshift-azuredevops/tree/master/deployment) . Run and Test your application.
+You can download my deployment config file and other files from my git repository  https://github.com/CSA-DanielVillamizar/openshift-azuredevops/tree/master/deployment . Run and Test your application.
 
 ![image](https://user-images.githubusercontent.com/59210322/214402770-05eb4fc7-4c39-4341-9636-bb654cd058a0.png)
 
@@ -231,7 +231,7 @@ Run the pipeline and see the docker image push to the UAT project image stream.
 
 Run the pipeline and see the new deployment successfully deployed to UAT project.
 
-You can download complete deployment.yaml file from my (GitHub)(https://github.com/CSA-DanielVillamizar/openshift-azuredevops/blob/master/openshift-azure-pipelines.yml) .
+You can download complete deployment.yaml file from my GitHub https://github.com/CSA-DanielVillamizar/openshift-azuredevops/blob/master/openshift-azure-pipelines.yml .
 
 ```
 trigger:
