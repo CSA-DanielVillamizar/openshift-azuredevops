@@ -1,6 +1,6 @@
 using System;
 
-namespace openshiftapplication
+namespace openshiftapplication1
 {
     public class WeatherForecast
     {
