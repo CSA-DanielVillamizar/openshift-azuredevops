@@ -200,7 +200,7 @@ The Developer perspective in the web console provides you the options from the +
 
 ![image](https://user-images.githubusercontent.com/59210322/214401608-afdfb12b-279d-437c-b1f4-e8f18ec37a80.png)
 
-You can download my deployment config file and other files from my git repository (Link)https://github.com/CSA-DanielVillamizar/openshift-azuredevops/tree/master/deployment . Run and Test your application.
+You can download my deployment config file and other files from my git repository (Link)(https://github.com/CSA-DanielVillamizar/openshift-azuredevops/tree/master/deployment) . Run and Test your application.
 
 ![image](https://user-images.githubusercontent.com/59210322/214402770-05eb4fc7-4c39-4341-9636-bb654cd058a0.png)
 
@@ -231,7 +231,7 @@ Run the pipeline and see the docker image push to the UAT project image stream.
 
 Run the pipeline and see the new deployment successfully deployed to UAT project.
 
-You can download complete deployment.yaml file from my (GitHub)https://github.com/CSA-DanielVillamizar/openshift-azuredevops/blob/master/openshift-azure-pipelines.yml .
+You can download complete deployment.yaml file from my (GitHub)(https://github.com/CSA-DanielVillamizar/openshift-azuredevops/blob/master/openshift-azure-pipelines.yml) .
 
 ```
 trigger:
@@ -371,4 +371,4 @@ Congratulation !!! Now you are ready to use the Azure DevoOps pipeline ,Once the
 
 ![image](https://user-images.githubusercontent.com/59210322/214403656-95701a01-66f3-4c38-a339-9e5e4f9c9ac7.png)
 
-Enjoy!!! stay safe.
+@csa-danielvillamizar :+1: Enjoy!!! stay safe. :shipit:
